@@ -1,0 +1,2 @@
+rm fort.*
+gfortran -Ofast -O3 geom-python.f90 random.f90 currents.f90 LCC_monte.f90 RyR_monte.f90 -o exp_gauss
